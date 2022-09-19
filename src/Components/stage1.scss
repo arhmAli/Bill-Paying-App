@@ -1,0 +1,18 @@
+.list-item {
+    position: relative;
+}
+
+.remover {
+    position: absolute;
+    display: flex;
+    padding: 2px;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: -10%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
