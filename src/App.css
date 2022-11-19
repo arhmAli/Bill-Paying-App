@@ -37,7 +37,10 @@ button.miami {
 .badge {
   cursor: pointer;
 }
-
+.badge:hover{
+curser:pointer;
+transform:scale(1)
+}
 .action_button {
   position: fixed;
   bottom: 20px;
